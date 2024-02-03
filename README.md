@@ -12,10 +12,12 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![Architecture Diagram](https://github.com/Fariasm213/Azure-SOC/assets/141985599/47a281d2-4956-4238-aa79-c0362c441601)
+
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![Architecture Diagram](https://github.com/Fariasm213/Azure-SOC/assets/141985599/c247e86e-fa11-4fe0-baaf-e4a6bd46c0aa)
+
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -47,11 +49,11 @@ Stop Time 2023-03-16 17:04:29
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityEvent            | 18914
+| Syslog                   | 987
+| SecurityAlert            | 5
+| SecurityIncident         | 271
+| AzureNetworkAnalytics_CL | 56273
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -65,10 +67,10 @@ Stop Time	2023-03-19 15:37
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
+| SecurityEvent            | 8438
+| Syslog                   | 1
 | SecurityAlert            | 0
-| SecurityIncident         | 0
+| SecurityIncident         | 4
 | AzureNetworkAnalytics_CL | 0
 
 ## Conclusion
